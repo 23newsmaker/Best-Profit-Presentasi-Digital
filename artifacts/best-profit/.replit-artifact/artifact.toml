@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Best Profit — Presentasi Digital"
+description = "Presentasi digital interaktif berbahasa Indonesia untuk Best Profit Futures kantor pusat Equity Tower. Delapan bab yang nyaman dibuka melalui WhatsApp di HP."
+version = "1.0.0"
+id = "artifacts/best-profit"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18887
+
+[services.development]
+run = "pnpm --filter @workspace/best-profit run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/best-profit", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/best-profit/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18887"
+BASE_PATH = "/"

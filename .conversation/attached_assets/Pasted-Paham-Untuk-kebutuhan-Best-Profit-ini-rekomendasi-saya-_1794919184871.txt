@@ -1,0 +1,185 @@
+Paham. Untuk kebutuhan Best Profit ini, rekomendasi saya: **jangan membuat HTML offline sebagai produk utamanya. Buat web app online yang bisa dibuka melalui link WhatsApp, tetapi sediakan kemampuan offline sebagai fitur tambahan.**
+
+Alasannya sederhana: konten akan terus berubah. Testimoni bertambah, marketing berganti, profil profesional diperbarui, materi edukasi berubah. Kalau menggunakan HTML offline yang dikirim sebagai file, setiap perubahan akan membuat kita harus mengirim ulang file tersebut.
+
+## **1. Bentuk teknologi yang saya rekomendasikan**
+
+Rekomendasi utama
+
+**Web app + CMS + PWA**
+
+Satu link untuk nasabah, satu dashboard untuk tim pengelola.
+
+[Mobile App Landing Page by Ronas IT | UI/UX Team on Dribbble](https://images.openai.com/static-rsc-4/0vS_b9SwKYO9uD3N3YYzeC46fk_mxWaNpWR8R91R3xpK5rJxw3FTM1yg0h7ZD_DD_cvBNw6pvdligfSxa1QzS5nmEkwZWTd1PvlLcYJqnzbWk8cikqDoZHhXfoYlMT27m50ZqIPVzcTuhGOzdJnZohEbdjcndYL3cEP5LF_LOGY?purpose=inline)
+
+[dribbble.com](https://dribbble.com/shots/25204193-Mobile-App-Landing-Page?utm_source=chatgpt.com)
+
+**Cara kerjanya**
+
+1. Tim Best Profit mengelola konten dari Admin Dashboard.
+2. Konten disimpan di database dan media storage.
+3. Nasabah membuka satu link melalui WhatsApp.
+4. Halaman otomatis menampilkan konten terbaru.
+5. Pengunjung dapat menghubungi marketing melalui WhatsApp.
+
+**Stack yang saya sarankan untuk Replit:**
+
+| Komponen               | Teknologi          |
+| ---------------------- | ------------------ |
+| Frontend               | React + TypeScript |
+| UI                     | Tailwind CSS       |
+| Backend                | Node.js            |
+| Database               | PostgreSQL         |
+| Penyimpanan foto/video | Object storage     |
+| Hosting                | Replit Deployment  |
+| Offline tambahan       | PWA                |
+
+PWA memungkinkan halaman tertentu disimpan untuk dibuka kembali ketika koneksi internet tidak tersedia. Tetapi perubahan konten tetap memerlukan koneksi internet untuk sinkronisasi.
+
+## **2. Prompt utama untuk Replit Agent**
+
+Saya buatkan prompt yang cukup detail supaya Replit tidak hanya menghasilkan landing page cantik, tetapi membangun fondasi aplikasi yang benar.
+
+Salin seluruh prompt berikut ke Replit Agent.
+
+**MASTER BUILD PROMPT**
+
+Siap disalin
+
+Best Profit — Digital Client Acquisition Platform
+
+&#x20;Copy master prompt
+
+## **3. Detail struktur aplikasi yang harus dihasilkan**
+
+Saya sarankan menu public-nya seperti ini:
+
+BEST PROFIT DIGITAL EXPERIENCE
+
+# **Discover. Understand. Connect.**
+
+Mengenal perusahaan, memahami layanan, dan mendapatkan informasi sebelum mengambil keputusan.
+
+[Kepler's Verifiable AI Platform Bridges Critical Gap in Financial Research Technology](https://images.openai.com/static-rsc-4/GY6s0s_w9LobNffV87kpOBontNogZGCOQMUBMjflyvm_yyR8oac9855ABrjKoiUzK85CmI6K67WI4R2e7N-4cMsgFVuPQ9eYnRfvoHLwAsPMtOD_waPMZB2s72rkle2vDvzjXx0xB_h_TlLdel9STs_qKPdXxIkdumAwV9qsMyQ?purpose=inline)
+
+[news.codegotech.com](https://news.codegotech.com/kepler-verifiable-ai-platform-bridges-gap-financial-research/?utm_source=chatgpt.com)
+
+## **01**
+
+**About Best Profit**
+
+Profil perusahaan dan informasi resmi.
+
+## **02**
+
+**Our Products**
+
+Informasi produk dan mekanisme transaksi.
+
+## **03**
+
+**Learn & Understand**
+
+Edukasi dan pemahaman risiko trading.
+
+## **04**
+
+**Client Experiences**
+
+Testimoni nasabah yang telah diverifikasi.
+
+## **05**
+
+**Our Marketing Team**
+
+Profil marketing dan pencapaian terverifikasi.
+
+## **06**
+
+**Meet Our Professionals**
+
+Profesional dan tim pendukung.
+
+## **07**
+
+**Frequently Asked Questions**
+
+Jawaban pertanyaan calon nasabah.
+
+## **08**
+
+**Let's Talk**
+
+Konsultasi dan kontak WhatsApp.
+
+**Ready to learn more?**
+
+Speak with an authorized representative.
+
+WhatsApp Consultation
+
+Ini gambaran struktur dan nuansa desain, bukan tampilan final.
+
+### **Admin Dashboard**
+
+Admin harus bisa melakukan semua hal ini tanpa mengedit kode:
+
+| Modul         | Fitur                                       |
+| ------------- | ------------------------------------------- |
+| Homepage      | Ganti headline, banner, foto                |
+| Company       | Edit profil dan informasi perusahaan        |
+| Products      | Tambah/edit informasi produk                |
+| Testimonials  | Upload video, foto, cerita, bukti pendukung |
+| Marketing     | Profil, foto, kontak, pencapaian            |
+| Professionals | Profil dan bidang keahlian                  |
+| Education     | Artikel dan materi edukasi                  |
+| Compliance    | Disclaimer dan persetujuan publikasi        |
+| Analytics     | Jumlah kunjungan dan klik WhatsApp          |
+
+Satu fitur yang saya anggap penting: **Draft → Review → Approved → Published.**
+
+Jangan sampai marketing bisa langsung mengubah klaim profit atau materi promosi yang belum disetujui. Ini perlu menjadi kontrol sistem, bukan sekadar SOP tertulis.
+
+## **4. Urutan pengerjaan di Replit**
+
+Jangan langsung minta Replit membangun semuanya sekaligus. Pecah menjadi beberapa tahap agar hasilnya lebih stabil.
+
+1. **Tahap 1 — Public Website**
+
+   Bangun seluruh halaman yang akan dilihat calon nasabah. Gunakan konten dummy yang diberi label placeholder.
+2. **Tahap 2 — Admin CMS**
+
+   Login, dashboard, pengelolaan konten, upload media, edit dan publish.
+3. **Tahap 3 — Approval & Compliance**
+
+   Role editor/reviewer, approval, audit log, dan kontrol materi promosi.
+4. **Tahap 4 — WhatsApp & Analytics**
+
+   Share link, referral marketing, tracking pengunjung dan klik konsultasi.
+5. **Tahap 5 — PWA**
+
+   Optimasi mobile, instalasi ke home screen, dan cache konten publik yang aman.
+
+## **5. Ada tiga keputusan arsitektur yang sebaiknya kita pegang**
+
+1. **Satu master link:** misalnya `bestprofit.../` yang selalu menampilkan versi terbaru.
+2. **Link marketing individual:** misalnya `bestprofit.../ref/nama-marketing`, agar kontribusi masing-masing marketing bisa diukur.
+3. **Konten terpusat:** semua materi diatur dari CMS, bukan tersebar dalam file HTML di perangkat masing-masing.
+
+Sebelum dipublikasikan, identitas perusahaan, izin, produk, testimoni, dan seluruh materi promosi harus diverifikasi terhadap informasi resmi dan ketentuan compliance yang berlaku.
+
+## **6. Rekomendasi keputusan saya**
+
+Pilih arsitektur ini
+
+**Online Web App + Admin CMS + PWA**, bukan HTML offline sebagai sistem utama.
+
+Target awal kita bukan membangun aplikasi yang terlalu kompleks. Targetnya adalah menghasilkan satu pengalaman digital Best Profit yang:
+
+- Menarik saat dibuka dari WhatsApp.
+- Terlihat profesional di HP.
+- Mampu membangun kepercayaan melalui informasi yang terverifikasi.
+- Selalu bisa diperbarui tanpa mengganti link.
+- Bisa dikelola oleh tim tanpa bergantung pada programmer.
+
+**Langkah pertama:** buka Replit, pilih Agent, lalu berikan Master Build Prompt di atas. Minta Agent menjelaskan arsitektur dan database schema terlebih dahulu sebelum mulai coding.

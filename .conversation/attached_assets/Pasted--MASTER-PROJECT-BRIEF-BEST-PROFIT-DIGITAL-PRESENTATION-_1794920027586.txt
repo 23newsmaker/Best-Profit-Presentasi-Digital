@@ -1,0 +1,523 @@
+# MASTER PROJECT BRIEF
+# BEST PROFIT — DIGITAL PRESENTATION EXPERIENCE
+
+## 1. PROJECT IDENTITY
+
+Build a premium interactive digital presentation platform for Best Profit.
+
+This project is NOT a conventional corporate website.
+
+This project is NOT a generic landing page template.
+
+This project is NOT an admin dashboard as its main experience.
+
+The main product is an immersive, visually engaging, mobile-first digital presentation that Best Profit marketing representatives can share with prospective clients through WhatsApp.
+
+The experience should feel like a combination of:
+- Premium corporate presentation
+- Interactive digital brochure
+- Financial services storytelling experience
+- Modern editorial website
+- Client engagement platform
+
+The purpose is to introduce Best Profit, communicate its value, showcase verified client experiences, introduce successful marketing representatives and professional support teams, explain products and services, and encourage prospective clients to request further information.
+
+The visitor should feel guided through a carefully designed presentation, not forced to navigate a conventional corporate website.
+
+IMPORTANT:
+Preserve this product concept throughout development. Do not reinterpret it as a generic corporate website or CRM platform.
+
+---
+
+## 2. PRIMARY OBJECTIVE
+
+A Best Profit marketing representative sends one URL through WhatsApp.
+
+The prospective client opens the link on a smartphone.
+
+The visitor immediately sees a premium, engaging presentation about Best Profit.
+
+The visitor can explore:
+1. Best Profit introduction.
+2. Company profile.
+3. Products and services.
+4. Trading education.
+5. Verified client experiences and testimonials.
+6. Marketing achievements and success stories.
+7. Professional team members.
+8. Consultation and contact information.
+
+At the end of the experience, the visitor can contact a representative directly through WhatsApp.
+
+The experience must be simple, intuitive, visually attractive and easy to understand.
+
+---
+
+## 3. DESIGN DIRECTION
+
+Create a premium financial-services visual identity.
+
+VISUAL CHARACTER:
+- Elegant
+- Professional
+- Premium
+- Modern
+- Trustworthy
+- Confident
+- Human and approachable
+
+COLOR DIRECTION:
+- Deep navy blue as the main color.
+- White and warm off-white for content backgrounds.
+- Restrained metallic gold accents.
+- Dark charcoal for supporting elements.
+
+Avoid:
+- Excessive gradients.
+- Excessive gold decoration.
+- Cheap-looking financial website templates.
+- Generic stock-market dashboard aesthetics.
+- Too many cards and boxes.
+- Crowded navigation.
+- Excessive animation.
+- Unnecessary charts and financial widgets.
+
+TYPOGRAPHY:
+Use elegant, modern and highly readable typography.
+
+LAYOUT:
+- Large editorial headlines.
+- Strong visual hierarchy.
+- Generous whitespace.
+- Large photographic sections.
+- Attractive testimonial layouts.
+- Smooth transitions between presentation sections.
+- Beautiful mobile layouts.
+
+The design must feel carefully art-directed, not automatically assembled from generic components.
+
+Use realistic placeholder photography where actual Best Profit photographs are not yet available. Mark all placeholder assets clearly for replacement.
+
+---
+
+## 4. MAIN USER EXPERIENCE
+
+Build the public experience as a continuous visual storytelling journey.
+
+The homepage should introduce the brand and guide visitors into the presentation.
+
+Use smooth scrolling and clear navigation.
+
+The main presentation should contain the following chapters.
+
+### CHAPTER 01 — WELCOME TO BEST PROFIT
+
+Create an impressive opening screen.
+
+Include:
+- Best Profit logo placeholder.
+- Main headline.
+- Supporting introduction.
+- Premium hero photograph or visual.
+- Explore the presentation button.
+- WhatsApp contact button.
+
+The opening screen must communicate professionalism and create curiosity.
+
+Suggested headline:
+
+"Discover Best Profit"
+
+Supporting message:
+
+"Get to know our company, understand our services, explore real client experiences, and meet the professionals who are ready to assist you."
+
+Do not make unsupported claims about company performance.
+
+### CHAPTER 02 — GET TO KNOW US
+
+Introduce Best Profit.
+
+Include:
+- Company overview.
+- Official company information.
+- Company background.
+- Vision and mission, when verified.
+- Relevant company credentials.
+- Company environment and activities.
+
+Use editorial storytelling with photographs and concise text.
+
+The section should feel like a premium company presentation, not a long legal document.
+
+### CHAPTER 03 — UNDERSTAND OUR PRODUCTS
+
+Introduce available products and services.
+
+Include:
+- Product overview.
+- Explanation of how the products work.
+- Transaction mechanisms.
+- Relevant educational material.
+- Frequently asked questions.
+
+Use simple visual explanations.
+
+Do not invent product specifications, regulatory claims or performance information.
+
+All product details must be editable through the content management system.
+
+### CHAPTER 04 — CLIENT EXPERIENCES
+
+This is one of the most important sections.
+
+Showcase genuine and authorized client experiences.
+
+Content formats:
+- Client portrait.
+- Client name or approved display name.
+- Testimonial.
+- Video testimonial.
+- Client experience story.
+- Supporting evidence where appropriate.
+
+Use an elegant editorial testimonial layout.
+
+Do not use fabricated testimonials.
+
+Do not fabricate client identities or profit figures.
+
+Where financial results are displayed, include the relevant period, context and appropriate risk disclosure.
+
+Do not imply that one client's result is representative of all clients or that profits are guaranteed.
+
+Provide a clearly marked placeholder when real testimonial content has not yet been supplied.
+
+### CHAPTER 05 — OUR MARKETING ACHIEVEMENTS
+
+Introduce the Best Profit marketing team.
+
+Show:
+- Marketing representative profiles.
+- Professional photographs.
+- Verified achievements.
+- Career stories.
+- Professional experience.
+- Individual contact information, when authorized.
+
+The objective is to introduce the people behind the client relationship.
+
+Use attractive profile layouts and editorial storytelling.
+
+Do not invent awards, rankings, revenue figures or achievements.
+
+### CHAPTER 06 — MEET OUR PROFESSIONALS
+
+Introduce the professional team and relevant support personnel.
+
+Each profile may contain:
+- Photograph.
+- Name.
+- Position.
+- Area of expertise.
+- Professional background.
+- Role in assisting clients.
+
+Only publish verified information and authorized photographs.
+
+### CHAPTER 07 — LEARN AND UNDERSTAND
+
+Provide educational content for prospective clients.
+
+Possible content:
+- Introduction to trading.
+- Basic terminology.
+- How transactions work.
+- Understanding market movements.
+- Risk management.
+- Important considerations before trading.
+
+Make the information easy to understand.
+
+Educational content must be accurate, balanced and not framed as a promise of financial results.
+
+### CHAPTER 08 — LET'S CONNECT
+
+Create a strong final presentation section.
+
+Suggested headline:
+
+"Your Next Conversation Starts Here."
+
+Include:
+- Consultation invitation.
+- WhatsApp contact button.
+- Marketing representative contact.
+- Company contact information.
+- Clear next steps.
+
+WhatsApp contact buttons must work.
+
+Allow the visitor to contact the relevant representative.
+
+---
+
+## 5. NAVIGATION AND INTERACTION
+
+The public presentation must be mobile-first.
+
+Create:
+- A clean navigation system.
+- Chapter navigation.
+- Smooth scrolling.
+- Section progress indicator.
+- Back-to-top control.
+- WhatsApp floating contact button.
+- Clear calls to action.
+
+Visitors must be able to explore the presentation naturally.
+
+Do not force visitors into a long sequence of slides that cannot be skipped.
+
+The experience should combine the storytelling of a presentation with the usability of a modern website.
+
+The WhatsApp sharing action should generate a shareable public URL.
+
+The shared URL must open correctly in mobile browsers.
+
+---
+
+## 6. CONTENT MANAGEMENT SYSTEM
+
+The CMS is a supporting system behind the public presentation.
+
+It must NOT become the main public-facing product.
+
+Create a separate protected admin area at /admin.
+
+Authorized administrators must be able to update presentation content without editing source code.
+
+ADMIN FEATURES:
+
+- Edit homepage headlines and descriptions.
+- Replace photographs.
+- Update company profile.
+- Add, edit and remove product information.
+- Add testimonials.
+- Upload testimonial videos.
+- Manage marketing profiles.
+- Manage professional profiles.
+- Publish educational articles.
+- Update FAQs.
+- Update WhatsApp contact information.
+- Manage presentation sections.
+- Preview changes before publication.
+
+All public content must be fetched from a central data source.
+
+When an administrator publishes an update, the public presentation should display the updated content without changing its URL.
+
+---
+
+## 7. CONTENT APPROVAL
+
+Implement a publishing workflow:
+
+DRAFT → REVIEW → APPROVED → PUBLISHED
+
+Roles:
+- Super Admin.
+- Content Editor.
+- Compliance Reviewer.
+
+Financial promotional content, testimonials, performance claims and marketing achievements must be subject to appropriate review before publication.
+
+Maintain an audit log of important content changes.
+
+---
+
+## 8. WHATSAPP DISTRIBUTION
+
+The platform must support:
+
+A. MASTER LINK
+
+One permanent public URL for the main Best Profit presentation.
+
+B. MARKETING LINKS
+
+Optional individual referral links for marketing representatives.
+
+Example:
+
+/ref/marketing-name
+
+C. WHATSAPP SHARING
+
+Create a share button that opens WhatsApp with a prepared message and the public presentation URL.
+
+D. DIRECT CONTACT
+
+Each authorized marketing profile may have an individual WhatsApp contact button.
+
+The master presentation URL must remain stable even when content changes.
+
+---
+
+## 9. TECHNICAL ARCHITECTURE
+
+Use:
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Node.js backend.
+- PostgreSQL database.
+- Persistent image and video storage.
+
+The application must be a dynamic online web application.
+
+Do not build the main product as a static offline HTML document.
+
+Keep the architecture simple and maintainable.
+
+PWA support may be added after the main public experience and CMS work correctly.
+
+If PWA is implemented:
+- Cache only safe public content.
+- Never cache admin pages or sensitive information.
+- Explain that fresh content updates require an internet connection.
+
+---
+
+## 10. RESPONSIVE DESIGN
+
+Prioritize smartphone screens.
+
+Most visitors will open the presentation through WhatsApp.
+
+The application must work well on:
+- Android smartphones.
+- iPhones.
+- Tablets.
+- Desktop browsers.
+
+Mobile experience must not feel like a compressed desktop website.
+
+Pay special attention to:
+- Readability.
+- Image proportions.
+- Navigation.
+- Touch interactions.
+- Loading speed.
+- WhatsApp contact buttons.
+
+---
+
+## 11. CONTENT AND DATA INTEGRITY
+
+Never fabricate:
+- Client testimonials.
+- Profit results.
+- Marketing achievements.
+- Awards.
+- Licenses.
+- Regulatory approvals.
+- Professional credentials.
+- Company facts.
+
+Use clearly labeled placeholder content until verified material is provided.
+
+Trading involves financial risk, including the possibility of loss.
+
+Ensure appropriate risk disclosures and compliance review for relevant promotional content.
+
+---
+
+## 12. DEVELOPMENT PRIORITY
+
+Build in this exact priority order.
+
+PHASE 1 — VISUAL EXPERIENCE
+
+First build the complete public-facing presentation.
+
+Focus on:
+- Visual quality.
+- Storytelling.
+- Navigation.
+- Mobile responsiveness.
+- Section transitions.
+- WhatsApp interaction.
+
+Use clearly labeled placeholder content.
+
+Do not build a complex admin dashboard before the public presentation is established.
+
+PHASE 2 — CONTENT ARCHITECTURE
+
+Make all public sections data-driven so that content can be changed later.
+
+Prepare the content model and database structure.
+
+PHASE 3 — ADMIN CMS
+
+Build the content management system.
+
+PHASE 4 — APPROVAL AND GOVERNANCE
+
+Implement content approval, user roles and audit logs.
+
+PHASE 5 — DISTRIBUTION AND ANALYTICS
+
+Implement WhatsApp sharing, marketing referral links and aggregate engagement tracking.
+
+PHASE 6 — PWA
+
+Add optional installation and safe offline caching.
+
+---
+
+## 13. STRICT SCOPE PROTECTION
+
+These instructions are mandatory.
+
+DO NOT:
+- Convert the product into a conventional corporate website.
+- Turn the homepage into an admin dashboard.
+- Prioritize backend complexity over visual experience.
+- Replace the presentation journey with a generic menu of cards.
+- Create a trading terminal or investment dashboard.
+- Invent company information.
+- Invent testimonials or performance figures.
+- Add unrelated CRM features.
+- Add unnecessary financial charts.
+- Change the core product concept.
+
+The public digital presentation is the primary product.
+
+The CMS is only a supporting capability.
+
+---
+
+## 14. FIRST IMPLEMENTATION TASK
+
+Start by building PHASE 1.
+
+Do not attempt to implement all phases simultaneously.
+
+First deliver a complete, visually polished public presentation with all eight chapters.
+
+Use placeholder content that can be replaced later.
+
+Make the application functional and responsive.
+
+After completing Phase 1, show the running application and explain:
+1. What sections have been completed.
+2. How navigation works.
+3. How WhatsApp sharing works.
+4. Which content is currently placeholder.
+5. What is required to connect the CMS.
+
+Do not change the approved project direction without explicit approval.
+
+The goal is to create a premium, engaging and shareable Best Profit digital presentation experience.

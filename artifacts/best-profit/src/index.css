@@ -442,3 +442,4 @@ body{background:hsl(38 33% 96%)}
 .kenburns{animation:kb 22s ease-out both}
 @keyframes kb{from{transform:scale(1.12)}to{transform:scale(1)}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.kenburns{animation:none}}
+button:focus-visible,a:focus-visible{outline:2px solid #c9a45c;outline-offset:3px}

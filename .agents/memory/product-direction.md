@@ -14,3 +14,9 @@ The user clarified this is for Best Profit Futures headquarters in Equity Tower,
 **Why:** The user explicitly corrected the organizational scope.
 
 **How to apply:** Do not refer to Equity Tower as a branch. Permission is user-reported and does not verify specific claims, testimonials, credentials, photos, or contact details.
+
+The refined scope focuses on prospects of the Equity Tower office, not a national corporate profile. Its eight chapters cover welcome, Equity Tower, products, how it works, trust, people, risk education, and consultation.
+
+**Why:** The user supplied a refinement brief that replaced the earlier separate testimonial and marketing-achievement chapters with process and credibility information.
+
+**How to apply:** Keep that prospect-focused scope, preserve the existing visual identity, and do not add CMS, login, CRM, operational features, or a rebuild during refinement.
